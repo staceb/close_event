@@ -1,5 +1,5 @@
 workflow "New workflow" {
-  on = "push"
+  on = "pull request"
   resolves = ["actions/bin/sh@master"]
 }
 
